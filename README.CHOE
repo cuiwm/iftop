@@ -1,0 +1,4 @@
+1. yum install -y flex byacc  ncurses-devel libpcap-devel
+2. ./bootstrap && ./configure && make 
+	maybe: you should specify the include-dir of pcap just like this .# CPPFLAGS=-I/usr/include/pcap ./configure
+3.have fun!  20170928
